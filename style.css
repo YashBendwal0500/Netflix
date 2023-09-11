@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 80px;
+    
+}
+nav img{
+    width: 200px;
+}
+
+nav span button{
+    width:100px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+#egn-btn{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.text-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding-top: 100px;
+}
+.text-part h1{
+    font-size: 50px;
+}
+.text-part h6{
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.text-part p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.text-part span{
+    margin-top: 20px;
+}
+
+.text-part span input{
+    width: 300px;
+    height: 50px;
+    background-color: rgba(77, 74, 74, 0.212);
+    border: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+    padding-left: 20px;
+}
+.text-part span input:hover{
+    border: none;
+    border: 1px solid white;
+}
+.text-part span button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+#btn{
+    display: none;
+    width: 50px;
+    height: 35px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+.line{
+    width: 100%;
+    height: 15px;
+    background-color: rgb(56, 55, 55);
+}
+
+.tv-section{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+}
+.right-section{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-section{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.right-section img{
+    width: 400px;
+}
+.faq-section{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-block: 50px;
+}
+.faq-section h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.faq-part{
+    width: 100%;
+    height: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 60px;
+}
+
+.box{
+    width: 800px;
+    height: 70px;
+    background-color: rgb(69, 68, 68);
+    margin-top: 20px;
+
+}
+.box:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.box span{
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 25px;
+    padding-inline: 25px;
+}
+.text-partt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.text-partt p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.text-partt span{
+    margin-top: 20px;
+}
+
+.text-partt span input{
+    width: 300px;
+    height: 50px;
+    background-color: rgba(77, 74, 74, 0.212);
+    border: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+    padding-left: 20px;
+}
+.text-partt span input:hover{
+    border: none;
+    border: 1px solid white;
+}
+.text-partt span button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxs{
+    width: 900px;
+    height: auto;
+    background-color:black;
+    color: white;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    
+   
+}
+.boxs span{
+    
+    margin-top: 20px;
+    flex-direction: row;
+    margin-inline: 60px;
+}
+.boxs span p{
+    margin-top: 15px;
+   
+}
+
+
+@media (max-width:768px) {
+
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    
+    nav{
+        width: 100%;
+        height: auto;
+    }
+
+    nav img{
+        width: 140px;
+
+    }
+    #egn-btn{
+        display: none;
+    }
+    #btn{
+        display: inline;
+    }
+    .text-part{
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+
+    }
+    
+    .text-part h1{
+        font-size: 26px;
+        text-align: center;
+    }
+    .text-part p,h6{
+        font-size: 16px;
+        text-align: center;
+    }
+    .text-part span{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .text-part span input{
+        width: 300px;
+
+    }
+    .text-part span button{
+        width:170px;
+        margin-top: 10px;
+    }
+    .tv-section{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .left-section{
+        width: 100%;
+        height: auto;
+    }
+    .right-section{
+        width: 100%;
+        height: auto;
+    }
+    .right-section img{
+        width: 300px;
+    }
+    .faq-section{
+        width: 100%;
+        height: auto;
+    }
+    .faq-section h1{
+        font: size 30px;
+
+    }
+    .faq-part{
+        width: 100%;
+        height: auto;
+
+    }
+    .box{
+        width: 400px;
+    }
+    .text-partt{
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+
+    }
+    
+    
+    .text-part p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .text-partt span{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .text-partt span input{
+        width: 300px;
+
+    }
+    .text-partt span button{
+        width:170px;
+        margin-top: 10px;
+    }
+
+}
